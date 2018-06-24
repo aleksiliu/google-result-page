@@ -6,10 +6,19 @@
 
 a {
   text-decoration: none;
+  color: #1A73E8;
 }
 
 body {
   font-family: arial,sans-serif;
+}
+
+p {
+  color: #545454;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: normal;
 }
 
 input {
@@ -43,7 +52,7 @@ header {
 .top {
   display: flex;
   justify-content: space-between;
-  margin-top: 20px;
+  padding-top: 20px;
   width: 100%;
 }
 
@@ -94,6 +103,21 @@ header {
 }
 
 
-.active a{
+.active a {
   color: #1A73E8;
 }
+
+.results {
+  max-width: 800px;
+  margin-left: 170px;
+}
+
+.results__title {
+  margin-bottom: 2px;
+  font-size: 21px;
+}
+
+.results__item {
+  margin-top: 30px;
+}
+
