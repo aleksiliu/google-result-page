@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: arial,sans-serif;
 }
@@ -62,4 +66,34 @@ header {
   display: inline-block;
   border-radius: 2px;
   text-decoration: none;
+}
+
+.navigation {
+  margin: 15px 0 0 140px;
+}
+
+.navigation__item a {
+  color: #777;
+}
+
+.navigation__item a:hover {
+  color: #000;
+}
+
+.navigation li {
+  color: gray;
+  display: inline-block;
+  margin-left: 25px;
+  padding: 15px;
+}
+
+.active {
+  color: #1A73E8;
+  border-bottom: 3px solid #1A73E8;
+  font-weight: bold;
+}
+
+
+.active a{
+  color: #1A73E8;
 }
