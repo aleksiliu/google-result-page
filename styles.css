@@ -1,3 +1,50 @@
-p {
-  color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+input {
+  padding: 4px;
+  -webkit-appearance: none; 
+  -moz-appearance: none; 
+  border: 0 solid #eee; 
+}
+
+textarea:focus, input:focus {
+  outline: none;
+}
+
+header {
+  background: #fafafa;
+  height: 100px;
+  border-bottom: 1px solid #ebebeb;
+  display: flex;
+  align-items: center;
+}
+
+.search > input {
+  width: 632px;
+  background-color: #fff;
+  height: 44px;
+  vertical-align: top;
+  border-radius: 2px;
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.16), 0 0 0 1px rgba(0,0,0,0.08);
+  transition: box-shadow 200ms cubic-bezier(0.4, 0.0, 0.2, 1);
+  padding: 0 20px 0 20px;
+  margin-left: 25px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.logo {
+  margin-left: 25px;
+}
+
+.lol {
+  display: flex;
 }
