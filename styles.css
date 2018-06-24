@@ -4,6 +4,10 @@
   box-sizing: border-box;
 }
 
+body {
+  font-family: arial,sans-serif;
+}
+
 input {
   padding: 4px;
   -webkit-appearance: none; 
@@ -17,10 +21,7 @@ textarea:focus, input:focus {
 
 header {
   background: #fafafa;
-  height: 100px;
   border-bottom: 1px solid #ebebeb;
-  display: flex;
-  align-items: center;
 }
 
 .search > input {
@@ -38,6 +39,7 @@ header {
 .top {
   display: flex;
   justify-content: space-between;
+  margin-top: 20px;
   width: 100%;
 }
 
@@ -45,6 +47,19 @@ header {
   margin-left: 25px;
 }
 
-.lol {
+.top__container {
   display: flex;
+}
+
+.log {
+  margin-right: 25px;
+}
+
+.btn {
+  color: #FFF;
+  background: -webkit-linear-gradient(top,#4387fd,#4683ea);
+  padding: 10px; 
+  display: inline-block;
+  border-radius: 2px;
+  text-decoration: none;
 }
