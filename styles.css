@@ -102,7 +102,6 @@ header {
   font-weight: bold;
 }
 
-
 .active a {
   color: #1A73E8;
 }
@@ -112,6 +111,12 @@ header {
   margin-left: 170px;
 }
 
+.related {
+  max-width: 400px;
+  margin-left: 170px;
+  margin-top: 30px;
+}
+
 .results__title {
   margin-bottom: 2px;
   font-size: 21px;
@@ -119,5 +124,12 @@ header {
 
 .results__item {
   margin-top: 30px;
+}
+
+.related__list {
+  list-style-type: none;
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
 }
 
